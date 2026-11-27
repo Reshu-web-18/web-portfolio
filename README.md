@@ -1,5 +1,6 @@
 # Portfolio
 # Student Web Development Portfolio
+https://reshu-web-18.github.io/web-portfolio/
 
 A responsive portfolio website and collection of front-end assignments created as part of a first-year BCA web development curriculum. The project presents an introduction, learning journey, skills, assignment previews, and contact section, with individual HTML pages for coursework projects.
 
