@@ -522,7 +522,7 @@ li .blue{
 .skill-main{
     display: flex;
     align-items: center;
-  justify content: center;
+  left:5px;
     gap: 18px;
     margin-bottom: 20px;
 }
