@@ -504,6 +504,10 @@ li .blue{
 .skill{
     background: rgba(255, 255, 255, .06);
     border: 1px solid rgba(255, 255, 255, .14);
+    display:flex;
+    justify-content: center;
+    align-item: centre;
+  flex-wrap: wrap;
     border-radius: 24px;
     border-bottom-left-radius: 6px;
     padding: 26px;
