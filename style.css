@@ -53,11 +53,11 @@ nav a:hover{
 }
 nav a .blue{ 
     background: var(--cobalt); 
-    color: rgb(255, 255, 255); 
+    color: #fff; 
 }
 li>.blue:hover{
     background: var(--ink);
-    color: rgb(255, 255, 255); 
+    color: #fff; 
 }
 .logo{
     display: flex;
@@ -92,7 +92,7 @@ li>.blue:hover{
 }
 li .blue{
     background: var(--cobalt);
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 .hero{
     height: 111vh;
@@ -171,7 +171,7 @@ li .blue{
     border-radius: 30px;
     border: 2px solid var(--ink);
     background: var(--ink);
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 .buttons>.b2{
     background: transparent;
@@ -202,7 +202,7 @@ li .blue{
 }
 .socials a:hover{
     background: var(--cobalt);
-    color: rgb(255, 255, 255);
+    color: #fff;
     transform: translateY(-5px) rotate(-7deg);
 }
 .oval{
@@ -292,7 +292,7 @@ li .blue{
 }
 .html i{
     font-size: 22px;
-    color: rgb(232, 89, 29);
+    color: #E8591D;
 }
 .css{
     position: absolute;
@@ -331,7 +331,7 @@ li .blue{
     height: 13vh;
     width: 100%;
     background: var(--ink);
-    color: rgb(255, 255, 255);
+    color: #fff;
     overflow: hidden;
     padding: 20px 0;
 }
@@ -469,7 +469,7 @@ li .blue{
 }
 .skills-blue{
     background: var(--ink);
-    color: rgb(255, 255, 255);
+    color: #fff;
     position: relative;
     overflow: hidden;
 }
@@ -504,14 +504,9 @@ li .blue{
 .skill{
     background: rgba(255, 255, 255, .06);
     border: 1px solid rgba(255, 255, 255, .14);
-    display:flex;
-    justify-content: center;
-    align-item: centre;
-  flex-wrap: wrap;
-  gap:30px;
     border-radius: 24px;
     border-bottom-left-radius: 6px;
-    padding: 27px;
+    padding: 26px;
     transition: .3s;
 }
 .skill:hover{
@@ -522,12 +517,11 @@ li .blue{
 .skill-main{
     display: flex;
     align-items: center;
-  left:5px;
     gap: 18px;
     margin-bottom: 20px;
 }
 .skill-main i{
-    color: rgb(242, 107, 58);
+    color: #f26b3a;
     font-size: 2rem;
 }
 .skill-main h3{
@@ -836,7 +830,7 @@ form h3{
     color: var(--ink);
     padding: 13px 16px;
     border-radius: 14px;
-    border: 2px solid rgb(214, 220, 240);
+    border: 2px solid #D6DCF0;
     background: var(--paper);
     transition: border-color .25s, box-shadow .25s, background .25s;
 }
@@ -861,14 +855,14 @@ form h3{
     height: auto;
     left: clamp(20px, 4vw, 40px);
     bottom: clamp(18px, 3vw, 32px);
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 .banner-text .title{
-    color: rgb(255, 255, 255);
+    color: #fff;
     margin-bottom: 4px;
 }
 .banner-text p{
-    color: rgb(255, 255, 255);
+    color: #fff;
     opacity: .9;
     font-family: var(--body);
 }
@@ -962,11 +956,11 @@ nav a{
 }
 nav a.blue, li .blue{ 
     background: var(--cobalt); 
-    color: rgb(255, 255, 255); 
+    color: #fff; 
 }
 nav a.blue:hover, li>.blue:hover{ 
     background: var(--ink); 
-    color: rgb(255, 255, 255); 
+    color: #fff; 
 }
 section{ 
     scroll-margin-top: 56px; 
@@ -986,8 +980,8 @@ section{
     z-index: 0;
     background-image: radial-gradient(circle at 1px 1px, rgba(30, 64, 216, .18) 1.5px, transparent 0);
     background-size: 28px 28px;
-    -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 40%, transparent);
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 40%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, #000 40%, transparent);
+    mask-image: linear-gradient(to bottom, #000 40%, transparent);
 }
 .hero-grid{
     position: relative;
@@ -1633,20 +1627,20 @@ footer{
     gap: 5px;
     height: 24px;
     padding: 0 10px;
-    background: rgb(233, 236, 245);
+    background: #E9ECF5;
     border-bottom: 1px solid rgba(14, 27, 77, .08);
 }
 .shot-bar span{
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: rgb(184, 190, 211);
+    background: #B8BED3;
 }
 .shot-view{
     position: relative;
     height: 160px;
     overflow: hidden;
-    background: rgb(244, 247, 255);
+    background: #F4F7FF;
 }
 .shot-view>img{
     height: 100%;
@@ -1681,7 +1675,7 @@ footer{
     display: block;
     text-align: center;
     background: var(--ink);
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-family: var(--body);
     font-weight: 700;
     font-size: .95rem;
@@ -1702,7 +1696,7 @@ footer{
     top: -54px;
     right: 0;
     background: var(--ink);
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-family: var(--body);
     font-weight: 700;
     font-size: .95rem;
