@@ -312,13 +312,14 @@ li .blue{
     animation-duration: 3.5s;
     animation-iteration-count: infinite;
 }  
+
 @keyframes float2 {
     from {
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
 
     to {
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 }
 
