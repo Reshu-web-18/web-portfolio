@@ -335,7 +335,7 @@ li .blue{
     overflow: hidden;
     padding: 20px 0;
 }
-.bullets span::after {
+.bullets span:: before {
     content: "✦";
     color: var(--marigold);
     font-size: 1.1rem;
