@@ -517,12 +517,15 @@ li .blue{
 .skill-main{
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 10px;
     margin-bottom: 20px;
 }
 .skill-main i{
     color: #f26b3a;
     font-size: 2rem;
+    align-item:center;
+    display:flex;
+    justify-content: center;
 }
 .skill-main h3{
     font-family: var(--display);
